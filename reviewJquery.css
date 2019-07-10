@@ -1,0 +1,212 @@
+body{
+  margin: 0;
+  z-index: 30;
+  }
+
+.allHide{
+  position: fixed;
+  z-index: 110;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.allLight{
+  display: none;
+}
+
+
+
+.bigImage{
+width: 980px;
+height: 490px;
+position: fixed;
+top: 50px;
+right: 180px;
+z-index: 300;
+}
+
+header{
+  width: 100%;
+  height: 150px;
+  background-image: url("image-jQuery/ce7a6b92.jpg");
+  background-size: 100%;
+  z-index: 50;
+}
+
+h1{
+  top: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  position: absolute;
+  font-size: 30px;
+  background: rgba(200, 165, 0, 0.8);
+  width: 600px;
+  right: 300px;
+}
+/* ここに左の目次をここに左の目次をここに左の目次をここに左の目次をここに左の目次を */
+#fixed{
+  position: fixed;
+  width: 266px;
+  height: 100%;
+  background: rgba(255, 250, 80, 1);
+  z-index: 100;
+}
+#titleOfContents{
+  background: white;
+  font-size: 25px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 15px;
+  color: orange;
+}
+#tableOfContents{
+  position: absolute;
+  top: 70px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  left: 30px;
+}
+
+#titleOfContents:hover{
+  opacity: 0.8;
+}
+li{
+  display: none;
+  padding: 4px;
+  border-bottom: solid #ff4f8a 3px;
+  font-weight: bold;
+  text-align: center;
+  color: orange;
+}
+a{
+  text-decoration: none;
+}
+/* ここから内容  ここから内容  ここから内容  ここから内容  ここから内容  ここから内容 */
+
+section{
+  background: rgb(240,250,180);
+  width: 100%;
+  height: 315px;
+  position: relative;
+  border-bottom: groove 5px gray;
+}
+/* 写真ひだり  写真ひだり  写真ひだり  写真ひだり  写真ひだり  写真ひだり  写真ひだり */
+.left-pic{
+  position:absolute;
+  margin: 0;
+  width: 535px;
+  height: 265px;
+  top: 25px;
+  left: 276px;
+}
+.left-pic:hover{
+opacity: 0.8;
+}
+.right-explanation{
+  margin: 0;
+  width: 525px;
+  height: 235px;
+  background: white;
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  z-index: 50;
+}
+.right-title{
+  position: absolute;
+  background: rgba(250, 120, 0, 0.8);
+  border-radius: 50px;
+  width: 525px;
+  height: 35px;
+  top: 25px;
+  right: 5px;
+  margin: 0;
+  z-index: 100;
+  text-align: center;
+}
+/* 写真みぎ  写真みぎ  写真みぎ  写真みぎ  写真みぎ  写真みぎ  写真みぎ  写真みぎ  写真みぎ */
+.right-pic{
+  position:absolute;
+  margin: 0;
+  width: 535px;
+  height: 265px;
+  top: 25px;
+  right: 5px;
+}
+.right-pic:hover{
+  opacity: 0.8;
+}
+.left-explanation{
+  margin: 0;
+  width: 525px;
+  height: 235px;
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 276px;
+  z-index: 50;
+}
+.left-title{
+  position: absolute;
+  background: rgba(250, 120, 0, 0.8);
+  border-radius: 50px;
+  width: 525px;
+  height: 35px;
+  top: 25px;
+  left: 276px;
+  margin: 0;
+  z-index: 100;
+  text-align: center;
+}
+p{
+ line-height: 35px;
+ display: table;
+}
+
+.positionForP{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+em{
+  color: red;
+  font-size: 20px;
+}
+
+/* footer用 footer用footer用footer用footer用 footer用footer用footer用 */
+#forFooter{
+  height: 100px;
+  background: lightgray;
+  width: 100%;
+  z-index: 40;
+  position: absolute;
+}
+
+#endroll{
+  height: 100px;
+  width: 150px;
+  right: 0;
+  margin: 0;
+  position: absolute;
+}
+#endroll p{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+#endroll a p{
+  border-bottom: solid 2px blue;
+  color: blue;
+}
+#endroll a p:hover{
+  opacity: 0.6;
+}
